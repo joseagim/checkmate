@@ -6,7 +6,7 @@ Copy of the work plan in execution order. The live reference is the project's co
 
 ## Initial phase: technical spike, no login or database
 
-- [ ] 1. Create the GitHub repo: GPLv3 license, `.gitignore`, README, `docs/`
+- [x] 1. Create the GitHub repo: GPLv3 license, `.gitignore`, README, `docs/`
 - [ ] 2. Folder structure + development Dockerfiles + `docker-compose.yml` (frontend and backend only)
 - [ ] 3. Frontend base project: Vite + React + Tailwind
 - [ ] 4. Backend base project: Spring Initializr with Spring Web only
