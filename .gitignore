@@ -1,0 +1,38 @@
+# Secrets and environment
+.env
+.env.*
+!.env.example
+
+# Frontend (Node / Vite)
+node_modules/
+dist/
+*.local
+npm-debug.log*
+
+# Backend (Java / Maven / Gradle)
+target/
+build/
+.gradle/
+*.class
+*.log
+HELP.md
+
+# Custom engine (C++)
+engine/build/
+engine/cmake-build-*/
+*.o
+*.obj
+*.exe
+*.out
+
+# Local Docker data
+postgres-data/
+db_data/
+
+# IDEs and operating system
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db
